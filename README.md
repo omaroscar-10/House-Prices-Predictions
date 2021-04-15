@@ -1,7 +1,7 @@
 # House-Prices-Predictions
 Developed a model that can predict the estimated market value of each home and serve as a second opinion to compare with the appraiser's value.
 
-#**1. Introduction**
+# **1. Introduction**
 
 According to the National Association of Realtors, of the 75% of contracts with settlement contingencies, 41% involved appraisal issues.
 
@@ -29,7 +29,7 @@ The data contains variables describing the aspect of residential homes. It conta
 
 **Modelling:** Apply several models to predict the number of sales and select the best performing model.
 
-#**4. Results**
+# **4. Results**
 
 The numerical features with high feature importance score and at the same time are highly correlated with the Sale Price were selected: OverallQual, YearBuilt, YearRemodAdd, BsmtFinSF1, TotalBsmtSF, 1stFlrSF, GrLivArea, Fireplaces, GarageCars, GarageArea. 
 The categorical features that exhibit high variance with respect to the Sale Price were selected: Neighborhood, ExterQual, BsmtQual, KitchenQual, GarageFinish, Foundation, HeatingQC, BsmtFinType1, MasVnrType, GarageType.
